@@ -1,0 +1,117 @@
+/*整體設定*/
+body
+{
+     text-align: center;
+     line-height: 200%;
+    letter-spacing: 3px;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+a:visited{
+color: black;
+text-decoration: none;
+}
+a:hover{
+    color: cadetblue;
+    text-decoration: none;
+}
+
+/*頁尾設定*/
+  footer{
+      position: relative;
+  }
+form{
+    text-align: left;
+    width: 50%;
+}
+.h-menu {
+  width: 200px; 
+  line-height: 200%;
+  display: inline;
+}
+
+.h-menu a {
+  background-color:white; 
+  color: black; 
+  padding: 12px; 
+  text-decoration: none ;
+  width: 150px;
+}
+
+.h-menu a:hover {
+  color: white;
+  background-color:rgb(231, 231, 231); 
+}
+
+.h-menu a.active {
+  background-color:cadetblue; 
+  color: white;
+}
+li{
+  display: inline-flex;
+}
+div{
+  margin: 40px;
+display: inline-block;
+}
+.footer{
+  margin: 40px;
+}
+
+/*index*/
+#menu{     /*目錄設定*/
+    text-align: center;
+    text-indent: -3%;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 200%;
+    font-weight: bolder;
+    list-style: none;
+}
+/*design*/
+
+.decoline{
+  width: 30%;
+}
+.logosize{
+  width: 300px;
+}
+/*illust*/
+.smallpic{
+  width:300px;
+}
+.largepic{
+  width:900px;
+}
+/*photo*/
+.photosize{
+  width:300px;
+  height:200px;
+}
+/*contact*/
+#contact{
+ padding-top: 10px;
+ padding-left: 250px;
+}
+/*timetable*/
+#line{
+  width:50%;
+}
+#tmtb{
+  width: 50px;
+}
+table{
+  text-align: center;
+  border: 0px;
+  width: 50%;
+}
+table th,
+        table td {
+            width: 40px;
+            height: 50px;
+            font-size: 80%;
+        }
+.class{
+  background-color: rgb(165, 189, 190);
+}
